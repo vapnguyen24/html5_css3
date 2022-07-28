@@ -1,0 +1,214 @@
+main.singin {
+    
+    background-color: #f9f9f9;
+    padding-top: 175px;
+    padding-bottom: 80px;
+}
+
+.singin__wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #ccc;
+}
+
+form.signin {
+    padding: 16px 24px;
+    color: #000;
+
+}
+
+.signin__title {
+    margin-top: 16px;
+}
+
+.signin__p {
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.signin__way {
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signin__way div {
+    padding: 12px 8px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid rgb(83, 146, 249);
+}
+
+.signin__way div:last-child {
+    padding: 12px 8px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid rgb(221, 223, 226);
+}
+
+.signin__input {
+    padding: 12px;
+}
+
+
+.signin__input--col {
+    padding-top: 12px;
+}
+
+.signin__input--col label{
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.signin__input--col input{
+    margin-top: 5px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(206, 208, 212);
+    border-radius: 4px;
+    font-size: 12px;
+    opacity: .7;
+
+}
+
+.signin__input--col input:focus{
+    outline: none;
+}
+
+.signin__btn {
+    padding: 12px;
+}
+
+.signin__btn button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(83, 146, 249);
+    cursor: pointer;
+}
+
+.signin__btn button:hover {
+
+    background-color: rgb(135, 179, 251);
+}
+
+.signin__forget {
+    display: flex;
+    padding: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(83, 146, 249);
+    justify-content: space-between;
+}
+
+.signin__forget div:hover{
+    text-decoration: underline;
+    color: rgb(83, 146, 249);
+
+}
+
+
+.signin__another--way {
+    margin-top: 12px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+.signin__another--way .line {
+    border-bottom: 1px solid rgb(206, 208, 212);
+    width: 32%;
+ }
+
+
+.signin__social--account {
+    padding: 12px;
+}
+
+.signin__social--account .social__top {
+
+}
+
+.social__gg--account {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color: #fff;
+    border: 1px solid rgb(83, 146, 249);
+    border-radius: 5px;
+}
+
+.social__gg--account span {
+    margin: 0 4px;
+    color: rgb(83, 146, 249);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.social__bottom {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__bottom--account {
+    width: 49%;
+   
+}
+
+
+
+.social__gg--account span img{
+    
+}
+
+.social__bottom--brand {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid rgb(83, 146, 249);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social__bottom--brand span{
+    margin: 0 4px;
+}
+
+.signin__notify {
+    text-align: center;
+    padding: 12px;
+}
+
+.signin__notify span{
+    color: #5392f9;
+}
+
+.signin__notify span:hover{
+    color: #5392f9;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media(min-width: 1024px) and (max-width: 1239px) {
+    .special {
+        max-width: 70%!important;
+        flex: 0 0 62%!important;
+    }
+
+    .special1 {
+        max-width: 10%!important;
+    }
+}

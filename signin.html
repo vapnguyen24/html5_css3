@@ -18,7 +18,7 @@
     <main class="singin">
         <div class="singin__wrapper">
             <form action="" class="signin">
-                <h2 class="sigin__title">Đăng nhập</h2>
+                <h2 class="sigin__title">Đăng ký</h2>
                 <p class="signin__p">Để đảm bảo an toàn, xin vui lòng đăng nhập để truy cập vào thông tin
                 </p>
                 <div class="signin__way">
@@ -28,27 +28,35 @@
                 <div class="signin__input">
                     <div class="signin__input--col">
                         <label for="">Email</label>
-                        <input type="text" placeholder="Email">
+                        <input id="mail" type="text" placeholder="Email">
+                        <div id="error1"></div>
                     </div>
 
                     <div class="signin__input--col">
                         <label for="">Mật khẩu</label>
-                        <input type="text" placeholder="Mật khẩu">
+                        <input id="password" type="password" placeholder="Mật khẩu">
+                        <div id="error2"></div>
+                    </div>
+
+                    <div class="signin__input--col">
+                        <label for="">Xác nhận mật khẩu</label>
+                        <input id="repassword" type="password" placeholder="Mật khẩu">
+                        <div id="error3"></div>
                     </div>
                 </div>
 
                 <div class="signin__btn">
-                    <button>Đăng nhập</button>
+                    <button type="button" onclick="valid()" id="sign-in">Đăng nhập</button>
                 </div>
-
+<!-- 
                 <div class="signin__forget">
                     <div>Tạo tài khoản</div>
                     <div>Quên Mật Khẩu?</div>
-                </div>
+                </div> -->
 
                 <div class="signin__another--way">
                     <span class=""></span>
-                    <span>hoặc đăng nhập bằng</span>
+                    <span>hoặc đăng ký bằng</span>
                     <span class=""></span>
                 </div>
 

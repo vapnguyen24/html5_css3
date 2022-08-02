@@ -102,3 +102,47 @@ close.onclick = function() {
     box.style.display = "none";
     boxBody.classList.remove("open");
 };
+
+// signin
+var email = document.getElementById('mail');
+var password = document.getElementById('password');
+var rePassword = document.getElementById('repassword');
+var er1 = document.getElementById('error1');
+var er2 = document.getElementById('error2');
+var er3 = document.getElementById('error3');
+function valid() {
+    var flag = 0;
+    if (email.value.length == 0)
+        er1.innerHTML = 'Vui lòng nhập vào ô đang trống';
+    else if (!ValidateEmail(email.value))
+        er1.innerHTML = 'Vui lòng nhập đúng định dạng';
+    else {
+        er1.innerHTML = '';
+        flag++;
+    }
+
+    if (password.value.length == 0) {
+        er2.innerHTML = 'Vui lòng nhập vào ô đang trống';
+    } else if (password.value.length < 6)
+        er2.innerHTML = 'Mật khẩu phải có ít nhất 6 ký tự';
+    else {
+        er2.innerHTML = '';
+        flag++
+    }
+
+    if (rePassword.value.length == 0) {
+        er3.innerHTML = 'Vui lòng nhập vào ô đang trống';
+    } else if (rePassword.value !== password.value) {
+        er3.innerHTML = 'Mật khẩu không trùng khớp';
+    } else {
+        er3.innerHTML = '';
+        flag++;
+    }
+
+
+}
+
+function ValidateEmail(mail) 
+{
+    return (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(mail))
+}

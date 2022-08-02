@@ -202,6 +202,11 @@ form.signin {
     cursor: pointer;
 }
 
+#error1, #error2, #error3  {
+    font-size: 11px;
+    color: red;
+}
+
 @media(min-width: 1024px) and (max-width: 1239px) {
     .special {
         max-width: 70%!important;

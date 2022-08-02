@@ -35,6 +35,7 @@
 
 .contact__about {
     margin-bottom: 25px;
+    position: relative;
 }
 
 
@@ -152,6 +153,12 @@
     }
 }
 
+@media (min-width: 740px) and (max-width: 1022px) {
+    #myCanvas {
+        top: 70%;
+    }
+}
+
 @media (max-width: 739px) {
     .contact__form {
         padding: 0 20px;
@@ -165,6 +172,14 @@
     .contact__about--logo {
         margin-top: 15px;
     }
+    .map {
+        height: 300px;
+    }
+
+    #myCanvas {
+        right: 0;
+        top: 87%;
+    }
 }
 
 @media (max-width: 479px) {
@@ -174,5 +189,13 @@
     .contact__container__form {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    #myCanvas {
+        top: 100%;
+        left: 0;
+    }
+    .map {
+        margin-top: 100px;
     }
 }

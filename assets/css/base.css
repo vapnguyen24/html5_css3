@@ -105,8 +105,9 @@ body {
 }
 
 .header__nav__container--list {
-    text-align: right;
     font-weight: 600;
+    width: 580px;
+    display: flex;
 }
 
 .header__nav__container--list li {

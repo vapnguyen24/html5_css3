@@ -218,6 +218,7 @@
     }
     .search__container {
         height: 485px;
+        margin-top: 170px;
         padding: 0;
     }
     .search__container__extras .row {
@@ -231,6 +232,7 @@
 @media (max-width: 740px) {
     .search__container {
         height: 670px;
+        margin-top: 165px!important;
     }
     .search__container__extras {
         padding: 0 10px;
@@ -269,5 +271,8 @@
     }
     .offer__container__item__review {
         right: 4%;
+    }
+    .search__container {
+        margin-top: 380px!important;
     }
 }

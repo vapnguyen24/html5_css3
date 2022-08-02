@@ -45,7 +45,7 @@ footer.innerHTML = `
                   <div class="container__blog__item">
                     <div class="container__blog__item--img">
                       <img
-                        src="../assets/images/xfooter_blog_1.jpg.pagespeed.ic.n5JT1wzbm-.webp"
+                        src="assets/images/xfooter_blog_1.jpg.pagespeed.ic.n5JT1wzbm-.webp"
                         alt=""
                       />
                       <div class="container__blog__item--text">
@@ -57,7 +57,7 @@ footer.innerHTML = `
                   <div class="container__blog__item">
                     <div class="container__blog__item--img">
                       <img
-                        src="../assets/images/xfooter_blog_2.jpg.pagespeed.ic.u_Bp7zMu38.webp"
+                        src="assets/images/xfooter_blog_2.jpg.pagespeed.ic.u_Bp7zMu38.webp"
                         alt=""
                       />
                       <div class="container__blog__item--text">
@@ -69,7 +69,7 @@ footer.innerHTML = `
                   <div class="container__blog__item">
                     <div class="container__blog__item--img">
                       <img
-                        src="../assets/images/xfooter_blog_3.jpg.pagespeed.ic.XDkX_CloU3.webp"
+                        src="assets/images/xfooter_blog_3.jpg.pagespeed.ic.XDkX_CloU3.webp"
                         alt=""
                       />
                       <div class="container__blog__item--text">

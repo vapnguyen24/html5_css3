@@ -3,7 +3,7 @@
     background-repeat: no-repeat;
     background-position: bottom center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100%;
 }
 
 .home__title h1 {
@@ -207,6 +207,7 @@
     .container__sidebar__content--latest {
         margin-bottom: 22px;
     }
+
     .container__sidebar__content--latest img {
         width: 63px;
         height: 63px;
@@ -217,13 +218,16 @@
     .container__sidebar__content--latest {
         margin-bottom: 17px;
     }
+
     .container__sidebar__content--latest img {
         width: 62px;
         height: 62px;
     }
+
     .blog__container__post {
         padding: 0 15px;
     }
+
     .blog__container__sidebar {
         padding: 0 10px;
     }
@@ -233,18 +237,22 @@
     .home__title h1 {
         font-size: 60px;
     }
+
     .top {
         margin-top: 20px;
     }
+
     .blog__container__post--time {
         width: 75px;
         height: 75px;
         left: 5%;
         top: 4%;
     }
+
     .blog__container__post--time span:first-child {
         font-size: 26px;
     }
+
     .blog__container__post--time span:last-child {
         font-size: 11px;
     }
@@ -254,18 +262,22 @@
     .home__title {
         top: 35%;
     }
+
     .home__title h1 {
         font-size: 42px;
     }
+
     .blog__container__post--time {
         width: 60px;
         height: 60px;
         left: 7%;
         top: 6%;
     }
+
     .blog__container__post--time span:first-child {
         font-size: 24px;
     }
+
     .blog__container__post--time span:last-child {
         font-size: 10px;
     }

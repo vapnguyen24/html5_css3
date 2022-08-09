@@ -1,5 +1,5 @@
 main.singin {
-    
+
     background-color: #f9f9f9;
     padding-top: 175px;
     padding-bottom: 80px;
@@ -37,6 +37,7 @@ form.signin {
     text-align: center;
     width: 100%;
     border-bottom: 2px solid rgb(83, 146, 249);
+    cursor: pointer;
 }
 
 .signin__way div:last-child {
@@ -44,6 +45,11 @@ form.signin {
     text-align: center;
     width: 100%;
     border-bottom: 1px solid rgb(221, 223, 226);
+}
+
+.signin__way div:last-child:active {
+    border-bottom: 2px solid rgb(83, 146, 249);
+    cursor: pointer;
 }
 
 .signin__input {
@@ -55,13 +61,13 @@ form.signin {
     padding-top: 12px;
 }
 
-.signin__input--col label{
+.signin__input--col label {
     display: block;
     font-weight: 500;
     font-size: 14px;
 }
 
-.signin__input--col input{
+.signin__input--col input {
     margin-top: 5px;
     width: 100%;
     padding: 12px;
@@ -72,7 +78,7 @@ form.signin {
 
 }
 
-.signin__input--col input:focus{
+.signin__input--col input:focus {
     outline: none;
 }
 
@@ -106,7 +112,7 @@ form.signin {
     justify-content: space-between;
 }
 
-.signin__forget div:hover{
+.signin__forget div:hover {
     text-decoration: underline;
     color: rgb(83, 146, 249);
 
@@ -118,23 +124,21 @@ form.signin {
     padding: 12px;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
 
 
 .signin__another--way .line {
     border-bottom: 1px solid rgb(206, 208, 212);
     width: 32%;
- }
+}
 
 
 .signin__social--account {
     padding: 12px;
 }
 
-.signin__social--account .social__top {
-
-}
+.signin__social--account .social__top {}
 
 .social__gg--account {
     width: 100%;
@@ -145,6 +149,11 @@ form.signin {
     background-color: #fff;
     border: 1px solid rgb(83, 146, 249);
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.social__gg--account:hover {
+    opacity: .8;
 }
 
 .social__gg--account span {
@@ -162,14 +171,14 @@ form.signin {
 
 .social__bottom--account {
     width: 49%;
-   
+    cursor: pointer;
+
 }
 
+.social__bottom--account :hover {}
 
 
-.social__gg--account span img{
-    
-}
+.social__gg--account span img {}
 
 .social__bottom--brand {
     width: 100%;
@@ -183,7 +192,13 @@ form.signin {
 
 }
 
-.social__bottom--brand span{
+.social__bottom--brand:hover {
+    opacity: .7;
+    cursor: pointer;
+
+}
+
+.social__bottom--brand span {
     margin: 0 4px;
 }
 
@@ -192,28 +207,30 @@ form.signin {
     padding: 12px;
 }
 
-.signin__notify span{
+.signin__notify span {
     color: #5392f9;
 }
 
-.signin__notify span:hover{
+.signin__notify span:hover {
     color: #5392f9;
     text-decoration: underline;
     cursor: pointer;
 }
 
-#error1, #error2, #error3  {
+#error1,
+#error2,
+#error3 {
     font-size: 11px;
     color: red;
 }
 
 @media(min-width: 1024px) and (max-width: 1239px) {
     .special {
-        max-width: 70%!important;
-        flex: 0 0 62%!important;
+        max-width: 70% !important;
+        flex: 0 0 62% !important;
     }
 
     .special1 {
-        max-width: 10%!important;
+        max-width: 10% !important;
     }
 }
